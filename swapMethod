@@ -1,0 +1,7 @@
+swap method
+
+public void swap(int nums[], int start, int end){
+        int temp = nums[start];
+        nums[start] = nums[end];
+        nums[end] = temp;
+    }
